@@ -1,0 +1,34 @@
+#board {
+    padding: 3em;
+    text-align: center;
+}
+
+.row > div {
+    float: left;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.row {
+    clear: both;
+    margin: 0 auto;
+    width: 302px;
+}
+
+.top {
+    border-bottom: 1px solid purple;
+}
+
+.bottom {
+    border-top: 1px solid red;
+}
+
+.right {
+    border-left: 1px solid blueviolet;
+}
+
+.left {
+    border-right: 1px solid crimson;
+}
+
