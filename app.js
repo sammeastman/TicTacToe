@@ -1,6 +1,6 @@
 let cells = document.querySelectorAll(".row > div");
 let turnCount = 0;
-let wind = cell [
+let wins = [
 
 [cells[0], cells [1], cells [2]],
 [cells[3], cells [4], cells [5]],
@@ -11,14 +11,14 @@ let wind = cell [
 [cells[0], cells [4], cells [8]],
 [cells[2], cells [4], cells [6]],
 
-
+];
 
 for (let i = 0; i < cells.length; i++) {
-  cells[i].addEventListener("click", cellClicked);
+  cells[i].addEventListener("click", cellClicked)
 }
 
 function cellClicked(e) {
-  if(turnCount % 2 == 0) {
+  if (turnCount % 2 == 0) {
   e.target.textContent = 'X';
 } else {
   e.target.textcontent = "O";
