@@ -1,13 +1,25 @@
 #board {
     padding: 3em;
     text-align: center;
+    font-family: monospace;
 }
 
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 4em;
+}
+
+body {
+    background-color: rgb(72, 8, 133);
+
+}
 .row > div {
     float: left;
     height: 100px;
     width: 100px;
     cursor: pointer;
+    line-height: 100px;
+    font-size: 75px;
 }
 
 .row {
@@ -17,7 +29,7 @@
 }
 
 .top {
-    border-bottom: 1px solid purple;
+    border-bottom: 1px solid crimson;
 }
 
 .bottom {
@@ -25,10 +37,26 @@
 }
 
 .right {
-    border-left: 1px solid blueviolet;
+    border-left: 1px solid red;
 }
 
 .left {
     border-right: 1px solid crimson;
 }
 
+button {
+    width: 200px;
+    height: 50px;
+
+    /* INNER TEXT STYLING */
+    margin-top: 10em;
+    margin-right: 15em;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    font-size: 1.50rem;
+    color: #e92687;
+    background-color: rgba(219, 148, 16, 0.5);
+    border-radius: 1rem;
+    border: none;   
+}
